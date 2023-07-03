@@ -5,6 +5,12 @@ plugins {
 group = "io.ikeyit.blankpaper"
 version = "1.0-SNAPSHOT"
 
+configure<JavaPluginExtension> {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(17))
+    }
+}
+
 repositories {
     mavenCentral()
 }
