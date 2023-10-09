@@ -1,13 +1,16 @@
 package io.ikeyit.blankpaper.alg;
 
 /**
- *
+ * Dynamic programming example: Calculate the max profit of stock trade
+ * 动态规划例子：计算股票最高收益
+ * Transition equation:
+ * maxProfit[i] = MAX(maxProfit[i-1], prices[i] - minPrice[0...i-1])
  */
 public class StockMaxProfit {
 
     /**
-     * Dynamic programming 动态规划
-     * maxProfit[i] = MAX(maxProfit[i-1], prices[i] - minPrice[0...i-1])
+     *
+     *
      * @param prices array contains daily stock prices
      * @return
      */

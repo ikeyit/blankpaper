@@ -1,6 +1,7 @@
 package io.ikeyit.blankpaper.alg;
 
 /**
+ * Dynamic programming example: Package
  * N件物品，一个背包。第i件物品重量为Wi，价值为Vi，背包容量为Z公斤。求背包能装下的最大物品价值之和。1个物品只能装一次。
  * DP求解
  * DP[i][j]表示前i个物品放到容量为j的包里的最高价值

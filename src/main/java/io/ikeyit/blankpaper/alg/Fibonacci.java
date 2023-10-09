@@ -1,7 +1,7 @@
 package io.ikeyit.blankpaper.alg;
 
 /**
- *
+ * Dynamic programming example: Fibonacci
  */
 public class Fibonacci {
 
